@@ -6877,10 +6877,10 @@ button.tab-right {
 }
 
 div.wiki h2:first-of-type {
-  margin: auto;
-  border-bottom: none;
-  padding: 0;
-  font-weight: bold;
+  margin: auto !important;
+  border-bottom: none !important;
+  padding: 0 !important;
+  font-weight: bold !important;
 }
 div.wiki table {
   border-collapse: collapse;
