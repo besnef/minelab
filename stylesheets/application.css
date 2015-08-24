@@ -7684,8 +7684,14 @@ div#search-results-counts ul {
   margin-top: 0.5em;
 }
 
-fieldset#filters td.values input, table.progress td {
+table.progress td {
   height: 1em;
+}
+
+fieldset#filters td.values input {
+  height: auto !important;
+  padding: 5px;
+  min-width: 75px;
 }
 
 div#activity dd .description, #search-results dd .description, ul.properties li span, .summary {
