@@ -1383,6 +1383,9 @@ dt.reply {
 dt.wiki-page {
   background-image: url(../images/wiki_edit.png);
 }
+#search-results dt.wiki-page {
+  background-image: none;
+}
 dt.document {
   background-image: url(../images/document.png);
 }
@@ -3195,4 +3198,8 @@ p, div, span {
 }
 .ui-autocomplete {
   z-index: 1000;
+}
+#principals > label {
+  display: inline-block;
+  width: 40%;
 }
