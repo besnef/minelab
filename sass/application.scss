@@ -960,7 +960,7 @@ table p {
   margin: 0;
 }
 .even, tr:nth-child(2n+2) {
-  background-color: $white !important;
+  background-color: $white;
 }
 a.sort {
   padding-right: 16px;
